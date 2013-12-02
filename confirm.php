@@ -8,7 +8,14 @@
  		p { text-align: center; font-size: 25px; }
 
  		#confirm,#deny { display:inline-block;}
-
+		
+		body {
+			background-image: url("http://31.media.tumblr.com/2339880d1393e42d3457fc9411233ead/tumblr_mimwqozMWL1r0o4nxo1_500.gif");
+			background-position: 50% 50%;
+			background-repeat:no-repeat;
+			background-size:contain;
+		}
+		#num{font-size:175%}
  	</style>
  </head>
 
@@ -35,7 +42,7 @@
  		<input name=\"price\" type=\"hidden\" value=\"$price\">
  		<input name=\"time\" type=\"hidden\" value=\"$time\">
  		<input name=\"seating\" type=\"hidden\" value=\"$seat\">
-		<b>Number of Passengers: </b><input type=\"text\" name=\"numberOfPassengers\"><br>
+		<font id=\"num\"><b>Number of Passengers: </b></font><input type=\"text\" name=\"numberOfPassengers\"><br>
  		<input type=\"submit\" style=\"width: 300px;\" value=\"Purchase\">
  	</form>";
 
